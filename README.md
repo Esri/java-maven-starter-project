@@ -29,5 +29,5 @@ The app launches a window displaying a map.
 ### Command Line
 
 1. `cd` into the project's root directory.
-2. Run `./mvnw clean compiler:compile` on Linux/Mac or `nvmw.cmd clean compiler:compile` on Windows once to make sure the dependencies are fetched.
+2. Run `./mvnw clean compiler:compile` on Linux/Mac or `mvnw.cmd clean compiler:compile` on Windows once to make sure the dependencies are fetched.
 3. Run `./mvnw exec:java` on Linux/Mac or `mvnw.cmd exec:java` on Windows to run the app.
