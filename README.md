@@ -24,10 +24,10 @@ The app launches a window displaying a map.
 4. Click _Finish_ to complete the import.
 5. Right-click the project in the Project Explorer or Package Explorer and choose _Maven > Refresh Maven project_. This will cause the ArcGIS Runtime SDK Maven plugin to download the native libraries.
 6. Open the Maven Tasks view with _Window > Show View > Other... > Maven > Maven Tasks_.
-7. In the Maven Tasks view, double-click `run` under _arcgis-java-gradle-starter-project > application_ to run the app.
+7. In the Maven Tasks view, double-click `run` under _arcgis-java-maven-starter-project > application_ to run the app.
 
 ### Command Line
 
 1. `cd` into the project's root directory.
-2. Run `./mvnw clean compiler:compile` on Linux/Mac or `gradlew.cmd clean compiler:compile` on Windows once to make sure the dependencies are fetched.
+2. Run `./mvnw clean compiler:compile` on Linux/Mac or `nvmw.cmd clean compiler:compile` on Windows once to make sure the dependencies are fetched.
 3. Run `./mvnw exec:java` on Linux/Mac or `mvnw.cmd exec:java` on Windows to run the app.
