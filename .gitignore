@@ -24,3 +24,8 @@ hs_err_pid*
 /.idea/
 /target/
 /app.iml
+/.classpath
+/.project
+/bin/
+/.mvn/
+/.settings/
