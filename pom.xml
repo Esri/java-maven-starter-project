@@ -39,7 +39,7 @@
         <dependency>
             <groupId>com.esri.arcgisruntime</groupId>
             <artifactId>arcgis-java</artifactId>
-            <version>100.4.0</version>
+            <version>100.5.0</version>
         </dependency>
     </dependencies>
     <pluginRepositories>
@@ -57,7 +57,7 @@
                 <version>1.0</version>
                 <configuration>
                     <!--specify the SDK version-->
-                    <version>100.4.0</version>
+                    <version>100.5.0</version>
                 </configuration>
             </plugin>
             <plugin>
