@@ -1,11 +1,14 @@
 # arcgis-java-maven-starter-project
-Starter project for the ArcGIS Runtime SDK for Java with Maven.
+
+Here is a starter project for the ArcGIS Runtime SDK for Java with Maven.
 
 The project includes the Maven wrapper, so there is no need to install Maven to run the app.
 
 The app launches a window displaying a map.
 
 ![screenshot](screenshot.png)
+
+## Instructions
 
 ### IntelliJ IDEA
 
@@ -30,3 +33,39 @@ The app launches a window displaying a map.
 1. `cd` into the project's root directory.
 2. Run `./mvnw clean compile` on Linux/Mac or `mvnw.cmd clean compile` on Windows once to make sure the dependencies are fetched.
 3. Run `./mvnw exec:java` on Linux/Mac or `mvnw.cmd exec:java` on Windows to run the app.
+
+## Requirements
+
+See the Runtime SDK's [system requirements](https://developers.arcgis.com/java/latest/guide/system-requirements-for-quartz.htm).
+
+## Resources
+
+* [ArcGIS Runtime SDK for Java](https://developers.arcgis.com/java/)  
+* [ArcGIS Blog](https://blogs.esri.com/esri/arcgis/)  
+* [Esri Twitter](https://twitter.com/esri)  
+
+## Issues
+
+Find a bug or want to request a new feature?  Please let us know by submitting an issue.
+
+## Contributing
+
+Esri welcomes contributions from anyone and everyone. Please see our [guidelines for contributing](https://github.com/esri/contributing).
+
+## Licensing
+
+Copyright 2019 Esri
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not 
+use this file except in compliance with the License. You may obtain a copy 
+of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT 
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the 
+License for the specific language governing permissions and limitations 
+under the License.
+
+A copy of the license is available in the repository's license.txt file.
