@@ -10,6 +10,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <arcgis.version>100.6.0</arcgis.version>
     </properties>
     <repositories>
         <repository>
@@ -28,18 +29,18 @@
         <dependency>
             <groupId>com.esri.arcgisruntime</groupId>
             <artifactId>arcgis-java</artifactId>
-            <version>100.5.0</version>
+            <version>${arcgis.version}</version>
         </dependency>
         <dependency>
             <groupId>com.esri.arcgisruntime</groupId>
             <artifactId>arcgis-java-jnilibs</artifactId>
-            <version>100.5.0</version>
+            <version>${arcgis.version}</version>
             <type>zip</type>
         </dependency>
         <dependency>
             <groupId>com.esri.arcgisruntime</groupId>
             <artifactId>arcgis-java-resources</artifactId>
-            <version>100.5.0</version>
+            <version>${arcgis.version}</version>
             <type>zip</type>
         </dependency>
     </dependencies>
@@ -54,18 +55,18 @@
                         <artifactItem>
                             <groupId>com.esri.arcgisruntime</groupId>
                             <artifactId>arcgis-java-jnilibs</artifactId>
-                            <version>100.5.0</version>
+                            <version>${arcgis.version}</version>
                             <type>zip</type>
                             <overWrite>false</overWrite>
-                            <outputDirectory>${user.home}/.arcgis/100.5.0</outputDirectory>
+                            <outputDirectory>${user.home}/.arcgis/${arcgis.version}</outputDirectory>
                         </artifactItem>
                         <artifactItem>
                             <groupId>com.esri.arcgisruntime</groupId>
                             <artifactId>arcgis-java-resources</artifactId>
-                            <version>100.5.0</version>
+                            <version>${arcgis.version}</version>
                             <type>zip</type>
                             <overWrite>false</overWrite>
-                            <outputDirectory>${user.home}/.arcgis/100.5.0</outputDirectory>
+                            <outputDirectory>${user.home}/.arcgis/${arcgis.version}</outputDirectory>
                         </artifactItem>
                     </artifactItems>
                 </configuration>
