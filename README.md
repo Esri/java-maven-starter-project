@@ -37,7 +37,7 @@ The app launches a window displaying a map.
 
 ## Requirements
 
-See the Runtime SDK's [system requirements](https://developers.arcgis.com/java/latest/guide/system-requirements-for-quartz.htm).
+See the Runtime SDK's [system requirements](https://developers.arcgis.com/java/latest/guide/system-requirements.htm).
 
 ## Resources
 
