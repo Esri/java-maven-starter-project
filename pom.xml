@@ -15,7 +15,7 @@
     <repositories>
         <repository>
             <id>arcgis</id>
-            <url>https://esri.jfrog.io/artifactory/arcgis</url>
+            <url>https://esri.bintray.com/arcgis</url>
         </repository>
     </repositories>
     <dependencies>
