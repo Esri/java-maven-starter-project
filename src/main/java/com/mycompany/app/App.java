@@ -1,5 +1,5 @@
 /**
- * Copyright 2021 Esri
+ * Copyright 2019 Esri
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy
@@ -16,13 +16,13 @@
 
 package com.mycompany.app;
 
+import com.esri.arcgisruntime.ArcGISRuntimeEnvironment;
+import com.esri.arcgisruntime.mapping.BasemapStyle;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-
 import com.esri.arcgisruntime.mapping.ArcGISMap;
-import com.esri.arcgisruntime.mapping.Basemap;
 import com.esri.arcgisruntime.mapping.view.MapView;
 
 public class App extends Application {
@@ -48,12 +48,19 @@ public class App extends Application {
         Scene scene = new Scene(stackPane);
         stage.setScene(scene);
 
+        // Note: it is not best practice to store API keys in source code.
+        // An API key is required to enable access to services, web maps, and web scenes hosted in ArcGIS Online.
+        // If you haven't already, go to your developer dashboard to get your API key.
+        // Please refer to https://developers.arcgis.com/java/get-started/ for more information
+        String yourApiKey = "YOUR_API_KEY";
+        ArcGISRuntimeEnvironment.setApiKey(yourApiKey);
+
         // create a MapView to display the map and add it to the stack pane
         mapView = new MapView();
         stackPane.getChildren().add(mapView);
 
-        // create an ArcGISMap with the default imagery basemap
-        ArcGISMap map = new ArcGISMap(Basemap.createImagery());
+        // create an ArcGISMap with an imagery basemap
+        ArcGISMap map = new ArcGISMap(BasemapStyle.ARCGIS_IMAGERY);
 
         // display the map by setting the map on the map view
         mapView.setMap(map);
