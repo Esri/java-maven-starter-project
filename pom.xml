@@ -10,7 +10,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <arcgis.version>100.11.2</arcgis.version>
+        <arcgis.version>100.12.0</arcgis.version>
     </properties>
     <repositories>
         <repository>
@@ -42,6 +42,12 @@
             <artifactId>arcgis-java-resources</artifactId>
             <version>${arcgis.version}</version>
             <type>zip</type>
+        </dependency>
+        <!--SLF4J dependencies-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-nop</artifactId>
+            <version>1.7.32</version>
         </dependency>
     </dependencies>
     <build>
