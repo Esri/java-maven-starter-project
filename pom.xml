@@ -23,7 +23,7 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>11</version>
+            <version>17.0.2</version>
         </dependency>
         <!--ArcGIS dependencies -->
         <dependency>
