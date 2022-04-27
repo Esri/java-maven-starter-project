@@ -10,7 +10,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <arcgis.version>100.13.1</arcgis.version>
+        <arcgis.version>100.14.0</arcgis.version>
     </properties>
     <repositories>
         <repository>
@@ -23,7 +23,7 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>11</version>
+            <version>17.0.2</version>
         </dependency>
         <!--ArcGIS dependencies -->
         <dependency>
