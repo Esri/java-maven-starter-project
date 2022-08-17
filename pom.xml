@@ -10,7 +10,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <arcgis.version>100.14.0</arcgis.version>
+        <arcgis.version>100.15.0</arcgis.version>
     </properties>
     <repositories>
         <repository>
