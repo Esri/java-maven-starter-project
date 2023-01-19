@@ -1,6 +1,6 @@
 # java-maven-starter-project
 
-Here is a starter project for the ArcGIS Runtime SDK for Java with Maven.
+Here is a starter project for the ArcGIS Maps SDK for Java with Maven.
 
 The project includes the Maven wrapper, so there is no need to install Maven to run the app.
 
@@ -37,13 +37,13 @@ The app launches a window displaying a map.
 
 ## Requirements
 
-See the Runtime SDK's [system requirements](https://developers.arcgis.com/java/reference/system-requirements/).
+See the Java Maps SDK [system requirements](https://developers.arcgis.com/java/reference/system-requirements/).
 
 ## Resources
 
-* [ArcGIS Runtime SDK for Java](https://developers.arcgis.com/java/)  
-* [ArcGIS Blog](https://blogs.esri.com/esri/arcgis/)  
-* [Esri Twitter](https://twitter.com/esri)  
+* [ArcGIS Maps SDK for Java](https://developers.arcgis.com/java/)  
+* [ArcGIS Blog](https://www.esri.com/arcgis-blog/developers/)  
+* [Esri Twitter](https://twitter.com/arcgisdevs)
 
 ## Issues
 
@@ -55,7 +55,7 @@ Esri welcomes contributions from anyone and everyone. Please see our [guidelines
 
 ## Licensing
 
-Copyright 2019 Esri
+Copyright 2023 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not 
 use this file except in compliance with the License. You may obtain a copy 
