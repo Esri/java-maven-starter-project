@@ -1,3 +1,5 @@
+ArcGIS Maps SDK for Java is deprecated. For more information, see the [deprecation announcement](https://support.esri.com/en-us/knowledge-base/deprecation-arcgis-maps-sdk-for-java-000032164).
+
 # java-maven-starter-project
 
 Here is a starter project for the ArcGIS Maps SDK for Java with Maven.
